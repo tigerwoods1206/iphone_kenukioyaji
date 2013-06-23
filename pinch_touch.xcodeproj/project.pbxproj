@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571737BE174764DE001210D7 /* UIDevice+retina_judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 571737BD174764DE001210D7 /* UIDevice+retina_judge.m */; };
+		57BE06B41776EE640086B815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06961776EE640086B815 /* InfoPlist.strings */; };
+		57BE06B51776EE640086B815 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06981776EE640086B815 /* MainWindow.xib */; };
+		57BE06B61776EE640086B815 /* pinch_touchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BE069A1776EE640086B815 /* pinch_touchViewController.xib */; };
+		57BE06B71776EE640086B815 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE069D1776EE640086B815 /* ImageView.m */; };
+		57BE06B81776EE640086B815 /* in_window_wall_judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE069F1776EE640086B815 /* in_window_wall_judge.m */; };
+		57BE06B91776EE640086B815 /* is_collision_face_judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE06A11776EE640086B815 /* is_collision_face_judge.m */; };
+		57BE06BA1776EE640086B815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE06A21776EE640086B815 /* main.m */; };
+		57BE06BB1776EE640086B815 /* main_menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE06A41776EE640086B815 /* main_menu.m */; };
+		57BE06BC1776EE640086B815 /* main_menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06A51776EE640086B815 /* main_menu.xib */; };
+		57BE06BD1776EE640086B815 /* namihei_face.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06A61776EE640086B815 /* namihei_face.plist */; };
+		57BE06BE1776EE640086B815 /* Option_Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE06A81776EE640086B815 /* Option_Table.m */; };
+		57BE06BF1776EE640086B815 /* Option_Table.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06A91776EE640086B815 /* Option_Table.xib */; };
+		57BE06C01776EE640086B815 /* pinch_touch-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06AA1776EE640086B815 /* pinch_touch-Info.plist */; };
+		57BE06C11776EE640086B815 /* pinch_touch.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06AC1776EE640086B815 /* pinch_touch.entitlements */; };
+		57BE06C21776EE640086B815 /* pinch_touchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE06AE1776EE640086B815 /* pinch_touchAppDelegate.m */; };
+		57BE06C31776EE640086B815 /* pinch_touchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE06B01776EE640086B815 /* pinch_touchViewController.m */; };
+		57BE06C41776EE640086B815 /* TimeoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE06B21776EE640086B815 /* TimeoutView.m */; };
+		57BE06C51776EE640086B815 /* TimeoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06B31776EE640086B815 /* TimeoutView.xib */; };
+		57BE06D21776EE7F0086B815 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06C71776EE7F0086B815 /* Default-568h@2x.png */; };
+		57BE06D31776EE7F0086B815 /* help_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06C81776EE7F0086B815 /* help_1.png */; };
+		57BE06D41776EE7F0086B815 /* help_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06C91776EE7F0086B815 /* help_2.png */; };
+		57BE06D51776EE7F0086B815 /* help_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06CA1776EE7F0086B815 /* help_3.png */; };
+		57BE06D61776EE7F0086B815 /* kenuki_real_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06CB1776EE7F0086B815 /* kenuki_real_2.png */; };
+		57BE06D71776EE7F0086B815 /* namihei_face.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06CC1776EE7F0086B815 /* namihei_face.png */; };
+		57BE06D81776EE7F0086B815 /* namihei_face_area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06CD1776EE7F0086B815 /* namihei_face_area.plist */; };
+		57BE06D91776EE7F0086B815 /* namihei_face_ite.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06CE1776EE7F0086B815 /* namihei_face_ite.png */; };
+		57BE06DA1776EE7F0086B815 /* namihei_face_ke.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06CF1776EE7F0086B815 /* namihei_face_ke.plist */; };
+		57BE06DB1776EE7F0086B815 /* particle1.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06D01776EE7F0086B815 /* particle1.png */; };
+		57BE06DC1776EE7F0086B815 /* real_kenuki_ue.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BE06D11776EE7F0086B815 /* real_kenuki_ue.png */; };
+		57BE07391776F2210086B815 /* higeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE07131776F2210086B815 /* higeLayer.m */; };
+		57BE073A1776F2210086B815 /* is_collision.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE07151776F2210086B815 /* is_collision.m */; };
+		57BE073B1776F2210086B815 /* Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE07171776F2210086B815 /* Layer.m */; };
+		57BE073C1776F2210086B815 /* realHigeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE07191776F2210086B815 /* realHigeLayer.m */; };
+		57BE073D1776F2210086B815 /* skin.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BE071B1776F2210086B815 /* skin.m */; };
+		57D661C4175E3A83009A678E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D661C3175E3A82009A678E /* iAd.framework */; };
+		57DBD5E6176DA3A9008AAE1C /* DamageValueLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DBD5E5176DA3A9008AAE1C /* DamageValueLabel.m */; };
+		57E18C2F16C1CC12003F60D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E18C2E16C1CC12003F60D3 /* UIKit.framework */; };
+		57E18C3116C1CC12003F60D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E18C3016C1CC12003F60D3 /* Foundation.framework */; };
+		57E18C3316C1CC12003F60D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E18C3216C1CC12003F60D3 /* CoreGraphics.framework */; };
+		57E18C4F16C1CC12003F60D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E18C2E16C1CC12003F60D3 /* UIKit.framework */; };
+		57E18C5016C1CC12003F60D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E18C3016C1CC12003F60D3 /* Foundation.framework */; };
+		57E18C5116C1CC12003F60D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E18C3216C1CC12003F60D3 /* CoreGraphics.framework */; };
+		57E18C5916C1CC13003F60D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57E18C5716C1CC13003F60D3 /* InfoPlist.strings */; };
+		57E18C5C16C1CC13003F60D3 /* pinch_touchTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 57E18C5B16C1CC13003F60D3 /* pinch_touchTests.h */; };
+		57E18C5E16C1CC13003F60D3 /* pinch_touchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E18C5D16C1CC13003F60D3 /* pinch_touchTests.m */; };
+		57E18C6816C1CC3D003F60D3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E18C6716C1CC3D003F60D3 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57E18C5216C1CC13003F60D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57E18C2116C1CC12003F60D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57E18C2916C1CC12003F60D3;
+			remoteInfo = pinch_touch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		571737BC174764DE001210D7 /* UIDevice+retina_judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+retina_judge.h"; sourceTree = "<group>"; };
+		571737BD174764DE001210D7 /* UIDevice+retina_judge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+retina_judge.m"; sourceTree = "<group>"; };
+		57BE06971776EE640086B815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57BE06991776EE640086B815 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		57BE069B1776EE640086B815 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pinch_touchViewController.xib; sourceTree = "<group>"; };
+		57BE069C1776EE640086B815 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		57BE069D1776EE640086B815 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+		57BE069E1776EE640086B815 /* in_window_wall_judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = in_window_wall_judge.h; sourceTree = "<group>"; };
+		57BE069F1776EE640086B815 /* in_window_wall_judge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = in_window_wall_judge.m; sourceTree = "<group>"; };
+		57BE06A01776EE640086B815 /* is_collision_face_judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = is_collision_face_judge.h; sourceTree = "<group>"; };
+		57BE06A11776EE640086B815 /* is_collision_face_judge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = is_collision_face_judge.m; sourceTree = "<group>"; };
+		57BE06A21776EE640086B815 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57BE06A31776EE640086B815 /* main_menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main_menu.h; sourceTree = "<group>"; };
+		57BE06A41776EE640086B815 /* main_menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main_menu.m; sourceTree = "<group>"; };
+		57BE06A51776EE640086B815 /* main_menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = main_menu.xib; sourceTree = "<group>"; };
+		57BE06A61776EE640086B815 /* namihei_face.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = namihei_face.plist; sourceTree = "<group>"; };
+		57BE06A71776EE640086B815 /* Option_Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Option_Table.h; sourceTree = "<group>"; };
+		57BE06A81776EE640086B815 /* Option_Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Option_Table.m; sourceTree = "<group>"; };
+		57BE06A91776EE640086B815 /* Option_Table.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Option_Table.xib; sourceTree = "<group>"; };
+		57BE06AA1776EE640086B815 /* pinch_touch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pinch_touch-Info.plist"; sourceTree = "<group>"; };
+		57BE06AB1776EE640086B815 /* pinch_touch-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pinch_touch-Prefix.pch"; sourceTree = "<group>"; };
+		57BE06AC1776EE640086B815 /* pinch_touch.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pinch_touch.entitlements; sourceTree = "<group>"; };
+		57BE06AD1776EE640086B815 /* pinch_touchAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinch_touchAppDelegate.h; sourceTree = "<group>"; };
+		57BE06AE1776EE640086B815 /* pinch_touchAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pinch_touchAppDelegate.m; sourceTree = "<group>"; };
+		57BE06AF1776EE640086B815 /* pinch_touchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinch_touchViewController.h; sourceTree = "<group>"; };
+		57BE06B01776EE640086B815 /* pinch_touchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pinch_touchViewController.m; sourceTree = "<group>"; };
+		57BE06B11776EE640086B815 /* TimeoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeoutView.h; sourceTree = "<group>"; };
+		57BE06B21776EE640086B815 /* TimeoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeoutView.m; sourceTree = "<group>"; };
+		57BE06B31776EE640086B815 /* TimeoutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeoutView.xib; sourceTree = "<group>"; };
+		57BE06C71776EE7F0086B815 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		57BE06C81776EE7F0086B815 /* help_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help_1.png; sourceTree = "<group>"; };
+		57BE06C91776EE7F0086B815 /* help_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help_2.png; sourceTree = "<group>"; };
+		57BE06CA1776EE7F0086B815 /* help_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help_3.png; sourceTree = "<group>"; };
+		57BE06CB1776EE7F0086B815 /* kenuki_real_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kenuki_real_2.png; sourceTree = "<group>"; };
+		57BE06CC1776EE7F0086B815 /* namihei_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = namihei_face.png; sourceTree = "<group>"; };
+		57BE06CD1776EE7F0086B815 /* namihei_face_area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = namihei_face_area.plist; sourceTree = "<group>"; };
+		57BE06CE1776EE7F0086B815 /* namihei_face_ite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = namihei_face_ite.png; sourceTree = "<group>"; };
+		57BE06CF1776EE7F0086B815 /* namihei_face_ke.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = namihei_face_ke.plist; sourceTree = "<group>"; };
+		57BE06D01776EE7F0086B815 /* particle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle1.png; sourceTree = "<group>"; };
+		57BE06D11776EE7F0086B815 /* real_kenuki_ue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = real_kenuki_ue.png; sourceTree = "<group>"; };
+		57BE07121776F2210086B815 /* higeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = higeLayer.h; sourceTree = "<group>"; };
+		57BE07131776F2210086B815 /* higeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = higeLayer.m; sourceTree = "<group>"; };
+		57BE07141776F2210086B815 /* is_collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = is_collision.h; sourceTree = "<group>"; };
+		57BE07151776F2210086B815 /* is_collision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = is_collision.m; sourceTree = "<group>"; };
+		57BE07161776F2210086B815 /* Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layer.h; sourceTree = "<group>"; };
+		57BE07171776F2210086B815 /* Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Layer.m; sourceTree = "<group>"; };
+		57BE07181776F2210086B815 /* realHigeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = realHigeLayer.h; sourceTree = "<group>"; };
+		57BE07191776F2210086B815 /* realHigeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = realHigeLayer.m; sourceTree = "<group>"; };
+		57BE071A1776F2210086B815 /* skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skin.h; sourceTree = "<group>"; };
+		57BE071B1776F2210086B815 /* skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skin.m; sourceTree = "<group>"; };
+		57D661C3175E3A82009A678E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		57DBD5E4176DA3A9008AAE1C /* DamageValueLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DamageValueLabel.h; sourceTree = "<group>"; };
+		57DBD5E5176DA3A9008AAE1C /* DamageValueLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DamageValueLabel.m; sourceTree = "<group>"; };
+		57E18C2A16C1CC12003F60D3 /* pinch_touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinch_touch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E18C2E16C1CC12003F60D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57E18C3016C1CC12003F60D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57E18C3216C1CC12003F60D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57E18C4E16C1CC12003F60D3 /* pinch_touchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinch_touchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E18C5616C1CC13003F60D3 /* pinch_touchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pinch_touchTests-Info.plist"; sourceTree = "<group>"; };
+		57E18C5816C1CC13003F60D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57E18C5A16C1CC13003F60D3 /* pinch_touchTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pinch_touchTests-Prefix.pch"; sourceTree = "<group>"; };
+		57E18C5B16C1CC13003F60D3 /* pinch_touchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pinch_touchTests.h; sourceTree = "<group>"; };
+		57E18C5D16C1CC13003F60D3 /* pinch_touchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pinch_touchTests.m; sourceTree = "<group>"; };
+		57E18C6716C1CC3D003F60D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57E18C2716C1CC12003F60D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D661C4175E3A83009A678E /* iAd.framework in Frameworks */,
+				57E18C6816C1CC3D003F60D3 /* QuartzCore.framework in Frameworks */,
+				57E18C2F16C1CC12003F60D3 /* UIKit.framework in Frameworks */,
+				57E18C3116C1CC12003F60D3 /* Foundation.framework in Frameworks */,
+				57E18C3316C1CC12003F60D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E18C4A16C1CC12003F60D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E18C4F16C1CC12003F60D3 /* UIKit.framework in Frameworks */,
+				57E18C5016C1CC12003F60D3 /* Foundation.framework in Frameworks */,
+				57E18C5116C1CC12003F60D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57BE06951776EE640086B815 /* pinch_touch */ = {
+			isa = PBXGroup;
+			children = (
+				57BE06961776EE640086B815 /* InfoPlist.strings */,
+				57BE06981776EE640086B815 /* MainWindow.xib */,
+				57BE069A1776EE640086B815 /* pinch_touchViewController.xib */,
+				57BE069C1776EE640086B815 /* ImageView.h */,
+				57BE069D1776EE640086B815 /* ImageView.m */,
+				57BE069E1776EE640086B815 /* in_window_wall_judge.h */,
+				57BE069F1776EE640086B815 /* in_window_wall_judge.m */,
+				57BE06A01776EE640086B815 /* is_collision_face_judge.h */,
+				57BE06A11776EE640086B815 /* is_collision_face_judge.m */,
+				57BE06A21776EE640086B815 /* main.m */,
+				57BE06A31776EE640086B815 /* main_menu.h */,
+				57BE06A41776EE640086B815 /* main_menu.m */,
+				57BE06A51776EE640086B815 /* main_menu.xib */,
+				57BE06A61776EE640086B815 /* namihei_face.plist */,
+				57BE06A71776EE640086B815 /* Option_Table.h */,
+				57BE06A81776EE640086B815 /* Option_Table.m */,
+				57BE06A91776EE640086B815 /* Option_Table.xib */,
+				57BE06AA1776EE640086B815 /* pinch_touch-Info.plist */,
+				57BE06AB1776EE640086B815 /* pinch_touch-Prefix.pch */,
+				57BE06AC1776EE640086B815 /* pinch_touch.entitlements */,
+				57BE06AD1776EE640086B815 /* pinch_touchAppDelegate.h */,
+				57BE06AE1776EE640086B815 /* pinch_touchAppDelegate.m */,
+				57BE06AF1776EE640086B815 /* pinch_touchViewController.h */,
+				57BE06B01776EE640086B815 /* pinch_touchViewController.m */,
+				57BE06B11776EE640086B815 /* TimeoutView.h */,
+				57BE06B21776EE640086B815 /* TimeoutView.m */,
+				57BE06B31776EE640086B815 /* TimeoutView.xib */,
+			);
+			path = pinch_touch;
+			sourceTree = "<group>";
+		};
+		57BE06C61776EE7F0086B815 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				57BE06C71776EE7F0086B815 /* Default-568h@2x.png */,
+				57BE06C81776EE7F0086B815 /* help_1.png */,
+				57BE06C91776EE7F0086B815 /* help_2.png */,
+				57BE06CA1776EE7F0086B815 /* help_3.png */,
+				57BE06CB1776EE7F0086B815 /* kenuki_real_2.png */,
+				57BE06CC1776EE7F0086B815 /* namihei_face.png */,
+				57BE06CD1776EE7F0086B815 /* namihei_face_area.plist */,
+				57BE06CE1776EE7F0086B815 /* namihei_face_ite.png */,
+				57BE06CF1776EE7F0086B815 /* namihei_face_ke.plist */,
+				57BE06D01776EE7F0086B815 /* particle1.png */,
+				57BE06D11776EE7F0086B815 /* real_kenuki_ue.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		57BE07111776F2210086B815 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				57BE07121776F2210086B815 /* higeLayer.h */,
+				57BE07131776F2210086B815 /* higeLayer.m */,
+				57BE07141776F2210086B815 /* is_collision.h */,
+				57BE07151776F2210086B815 /* is_collision.m */,
+				57BE07161776F2210086B815 /* Layer.h */,
+				57BE07171776F2210086B815 /* Layer.m */,
+				57BE07181776F2210086B815 /* realHigeLayer.h */,
+				57BE07191776F2210086B815 /* realHigeLayer.m */,
+				57BE071A1776F2210086B815 /* skin.h */,
+				57BE071B1776F2210086B815 /* skin.m */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		57DBD5E3176DA3A9008AAE1C /* DamageValueLabel */ = {
+			isa = PBXGroup;
+			children = (
+				57DBD5E4176DA3A9008AAE1C /* DamageValueLabel.h */,
+				57DBD5E5176DA3A9008AAE1C /* DamageValueLabel.m */,
+			);
+			path = DamageValueLabel;
+			sourceTree = "<group>";
+		};
+		57E18C1F16C1CC12003F60D3 = {
+			isa = PBXGroup;
+			children = (
+				57BE07111776F2210086B815 /* Layer */,
+				57BE06C61776EE7F0086B815 /* resource */,
+				57BE06951776EE640086B815 /* pinch_touch */,
+				57DBD5E3176DA3A9008AAE1C /* DamageValueLabel */,
+				571737BC174764DE001210D7 /* UIDevice+retina_judge.h */,
+				571737BD174764DE001210D7 /* UIDevice+retina_judge.m */,
+				57E18C5416C1CC13003F60D3 /* pinch_touchTests */,
+				57E18C2D16C1CC12003F60D3 /* Frameworks */,
+				57E18C2B16C1CC12003F60D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57E18C2B16C1CC12003F60D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57E18C2A16C1CC12003F60D3 /* pinch_touch.app */,
+				57E18C4E16C1CC12003F60D3 /* pinch_touchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57E18C2D16C1CC12003F60D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57D661C3175E3A82009A678E /* iAd.framework */,
+				57E18C6716C1CC3D003F60D3 /* QuartzCore.framework */,
+				57E18C2E16C1CC12003F60D3 /* UIKit.framework */,
+				57E18C3016C1CC12003F60D3 /* Foundation.framework */,
+				57E18C3216C1CC12003F60D3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57E18C5416C1CC13003F60D3 /* pinch_touchTests */ = {
+			isa = PBXGroup;
+			children = (
+				57E18C5B16C1CC13003F60D3 /* pinch_touchTests.h */,
+				57E18C5D16C1CC13003F60D3 /* pinch_touchTests.m */,
+				57E18C5516C1CC13003F60D3 /* Supporting Files */,
+			);
+			path = pinch_touchTests;
+			sourceTree = "<group>";
+		};
+		57E18C5516C1CC13003F60D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57E18C5616C1CC13003F60D3 /* pinch_touchTests-Info.plist */,
+				57E18C5716C1CC13003F60D3 /* InfoPlist.strings */,
+				57E18C5A16C1CC13003F60D3 /* pinch_touchTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57E18C2916C1CC12003F60D3 /* pinch_touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E18C6116C1CC13003F60D3 /* Build configuration list for PBXNativeTarget "pinch_touch" */;
+			buildPhases = (
+				57E18C2616C1CC12003F60D3 /* Sources */,
+				57E18C2716C1CC12003F60D3 /* Frameworks */,
+				57E18C2816C1CC12003F60D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pinch_touch;
+			productName = pinch_touch;
+			productReference = 57E18C2A16C1CC12003F60D3 /* pinch_touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57E18C4D16C1CC12003F60D3 /* pinch_touchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E18C6416C1CC13003F60D3 /* Build configuration list for PBXNativeTarget "pinch_touchTests" */;
+			buildPhases = (
+				57E18C4916C1CC12003F60D3 /* Sources */,
+				57E18C4A16C1CC12003F60D3 /* Frameworks */,
+				57E18C4B16C1CC12003F60D3 /* Resources */,
+				57E18C4C16C1CC12003F60D3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57E18C5316C1CC13003F60D3 /* PBXTargetDependency */,
+			);
+			name = pinch_touchTests;
+			productName = pinch_touchTests;
+			productReference = 57E18C4E16C1CC12003F60D3 /* pinch_touchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57E18C2116C1CC12003F60D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 57E18C2416C1CC12003F60D3 /* Build configuration list for PBXProject "pinch_touch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57E18C1F16C1CC12003F60D3;
+			productRefGroup = 57E18C2B16C1CC12003F60D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57E18C2916C1CC12003F60D3 /* pinch_touch */,
+				57E18C4D16C1CC12003F60D3 /* pinch_touchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57E18C2816C1CC12003F60D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BE06B41776EE640086B815 /* InfoPlist.strings in Resources */,
+				57BE06B51776EE640086B815 /* MainWindow.xib in Resources */,
+				57BE06B61776EE640086B815 /* pinch_touchViewController.xib in Resources */,
+				57BE06BC1776EE640086B815 /* main_menu.xib in Resources */,
+				57BE06BD1776EE640086B815 /* namihei_face.plist in Resources */,
+				57BE06BF1776EE640086B815 /* Option_Table.xib in Resources */,
+				57BE06C01776EE640086B815 /* pinch_touch-Info.plist in Resources */,
+				57BE06C11776EE640086B815 /* pinch_touch.entitlements in Resources */,
+				57BE06C51776EE640086B815 /* TimeoutView.xib in Resources */,
+				57BE06D21776EE7F0086B815 /* Default-568h@2x.png in Resources */,
+				57BE06D31776EE7F0086B815 /* help_1.png in Resources */,
+				57BE06D41776EE7F0086B815 /* help_2.png in Resources */,
+				57BE06D51776EE7F0086B815 /* help_3.png in Resources */,
+				57BE06D61776EE7F0086B815 /* kenuki_real_2.png in Resources */,
+				57BE06D71776EE7F0086B815 /* namihei_face.png in Resources */,
+				57BE06D81776EE7F0086B815 /* namihei_face_area.plist in Resources */,
+				57BE06D91776EE7F0086B815 /* namihei_face_ite.png in Resources */,
+				57BE06DA1776EE7F0086B815 /* namihei_face_ke.plist in Resources */,
+				57BE06DB1776EE7F0086B815 /* particle1.png in Resources */,
+				57BE06DC1776EE7F0086B815 /* real_kenuki_ue.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E18C4B16C1CC12003F60D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E18C5916C1CC13003F60D3 /* InfoPlist.strings in Resources */,
+				57E18C5C16C1CC13003F60D3 /* pinch_touchTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57E18C4C16C1CC12003F60D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57E18C2616C1CC12003F60D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571737BE174764DE001210D7 /* UIDevice+retina_judge.m in Sources */,
+				57DBD5E6176DA3A9008AAE1C /* DamageValueLabel.m in Sources */,
+				57BE06B71776EE640086B815 /* ImageView.m in Sources */,
+				57BE06B81776EE640086B815 /* in_window_wall_judge.m in Sources */,
+				57BE06B91776EE640086B815 /* is_collision_face_judge.m in Sources */,
+				57BE06BA1776EE640086B815 /* main.m in Sources */,
+				57BE06BB1776EE640086B815 /* main_menu.m in Sources */,
+				57BE06BE1776EE640086B815 /* Option_Table.m in Sources */,
+				57BE06C21776EE640086B815 /* pinch_touchAppDelegate.m in Sources */,
+				57BE06C31776EE640086B815 /* pinch_touchViewController.m in Sources */,
+				57BE06C41776EE640086B815 /* TimeoutView.m in Sources */,
+				57BE07391776F2210086B815 /* higeLayer.m in Sources */,
+				57BE073A1776F2210086B815 /* is_collision.m in Sources */,
+				57BE073B1776F2210086B815 /* Layer.m in Sources */,
+				57BE073C1776F2210086B815 /* realHigeLayer.m in Sources */,
+				57BE073D1776F2210086B815 /* skin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E18C4916C1CC12003F60D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E18C5E16C1CC13003F60D3 /* pinch_touchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57E18C5316C1CC13003F60D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57E18C2916C1CC12003F60D3 /* pinch_touch */;
+			targetProxy = 57E18C5216C1CC13003F60D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57BE06961776EE640086B815 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BE06971776EE640086B815 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57BE06981776EE640086B815 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BE06991776EE640086B815 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		57BE069A1776EE640086B815 /* pinch_touchViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BE069B1776EE640086B815 /* en */,
+			);
+			name = pinch_touchViewController.xib;
+			sourceTree = "<group>";
+		};
+		57E18C5716C1CC13003F60D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57E18C5816C1CC13003F60D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57E18C5F16C1CC13003F60D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57E18C6016C1CC13003F60D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		57E18C6216C1CC13003F60D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = pinch_touch/pinch_touch.entitlements;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pinch_touch/pinch_touch-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "pinch_touch/pinch_touch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57E18C6316C1CC13003F60D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = pinch_touch/pinch_touch.entitlements;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pinch_touch/pinch_touch-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "pinch_touch/pinch_touch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57E18C6516C1CC13003F60D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pinch_touch.app/pinch_touch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pinch_touchTests/pinch_touchTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "pinch_touchTests/pinch_touchTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		57E18C6616C1CC13003F60D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pinch_touch.app/pinch_touch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pinch_touchTests/pinch_touchTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "pinch_touchTests/pinch_touchTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57E18C2416C1CC12003F60D3 /* Build configuration list for PBXProject "pinch_touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E18C5F16C1CC13003F60D3 /* Debug */,
+				57E18C6016C1CC13003F60D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E18C6116C1CC13003F60D3 /* Build configuration list for PBXNativeTarget "pinch_touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E18C6216C1CC13003F60D3 /* Debug */,
+				57E18C6316C1CC13003F60D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E18C6416C1CC13003F60D3 /* Build configuration list for PBXNativeTarget "pinch_touchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E18C6516C1CC13003F60D3 /* Debug */,
+				57E18C6616C1CC13003F60D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57E18C2116C1CC12003F60D3 /* Project object */;
+}
